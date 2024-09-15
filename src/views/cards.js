@@ -53,7 +53,7 @@ const VehicleSummary = () => {
     return (
         <Grid container columnSpacing={1}>
             {/* Card for Total Number of Vehicles */}
-            <Grid item xs={3} sm={3} md={3}>
+            <Grid item xs={12} sm={3} md={3}>
                 <StyledCard bgcolor="#166303"> {/* Dark Green */}
                     <CardContent>
                         <Typography variant="h5" component="div" gutterBottom style={{ fontSize: '16px' }}>
@@ -67,7 +67,7 @@ const VehicleSummary = () => {
             </Grid>
 
             {/* Card for Average Electric Range */}
-            <Grid item xs={3} sm={3} md={3}>
+            <Grid item xs={12} sm={3} md={3}>
                 <StyledCard bgcolor="#AD0B0B"> {/* Dark Red */}
                     <CardContent>
                         <Typography variant="h5" component="div" gutterBottom style={{ fontSize: '16px' }}>
@@ -81,7 +81,7 @@ const VehicleSummary = () => {
             </Grid>
 
             {/* Card for CAFV Eligibility */}
-            <Grid item xs={3} sm={3} md={3}>
+            <Grid item xs={12} sm={3} md={3}>
                 <StyledCard bgcolor="#CF7808"> {/* Dark Orange */}
                     <CardContent>
                         <Typography variant="h5" component="div" gutterBottom style={{ fontSize: '14px' }}>
@@ -118,7 +118,7 @@ const VehicleSummary = () => {
             </Grid>
 
             {/* Card for Top 3 Makes */}
-            <Grid item xs={3} sm={3} md={3}>
+            <Grid item xs={12} sm={3} md={3}>
                 <StyledCard bgcolor="#005691"> {/* Dark Purple */}
                     <CardContent>
                         <Typography variant="h5" component="div" gutterBottom style={{ fontSize: '16px' }}>
